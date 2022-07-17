@@ -8,6 +8,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
         }
         table {
             width: 500px;
@@ -27,6 +28,12 @@
             background-color: gray;
             color: white;
             text-transform: capitalize;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
         td.numero {
             text-align: right;
